@@ -5,8 +5,9 @@
 
 html
 {
-background-color: black;
-font-family: sans-serif;
+  background-color: black;
+  font-family: sans-serif;
+  display: block;
 }
 
 body
@@ -16,9 +17,8 @@ body
 
 .logo
 {
-  width: 5%;
+  max-width: 5%;
   height: auto;
-  display: block;
 }
 
 .header
