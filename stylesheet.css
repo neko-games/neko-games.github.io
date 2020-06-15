@@ -5,9 +5,9 @@
 
 html
 {
-  background-color: black;
-  font-family: sans-serif;
+  background-color: #111111;
   display: block;
+  font-family: 'Inter', sans-serif;
 }
 
 body
@@ -15,30 +15,21 @@ body
   margin:0;
 }
 
+.white
+{
+  color:white;
+}
+
 .logo
 {
-  max-width: 100%;
-  height: auto;
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
 }
 
 .header
 {
-  background-color: white;
-  width: 100%;
-  margin:0;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-
-.navbar
-{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-
-.navelement
-{
-  background-color: black;
+  width: 100vw;
+  height: 5vh;
+  margin:.5vw;
 }
