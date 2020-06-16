@@ -5,6 +5,7 @@
 
 html
 {
+  overflow: hidden;
   background-color: #111111;
   display: block;
   font-family: 'Inter', sans-serif;
@@ -24,7 +25,6 @@ body
 {
   max-width:100%;
   max-height:100%;
-  padding-right:20px;
 }
 
 .headerlmnt
@@ -35,6 +35,7 @@ body
   max-width:100%;
   max-height:100%;
   font-size: 4vh;
+  padding-right:2vw;
 }
 
 .header
@@ -43,4 +44,25 @@ body
   width: 100vw;
   height: 5vh;
   margin:.5vw;
+}
+
+.socials
+{
+  margin: 0;
+  padding: .3%;
+  background-color: #eeeeee;
+  width:100vw;
+  position:fixed;
+  bottom:0;
+}
+
+.icon
+{
+  width: 20px;
+  height: 20px;
+  viewbox auto;
+  margin:0;
+  vertical-align: middle;
+  margin-left:1%;
+  margin-right:1%;
 }
