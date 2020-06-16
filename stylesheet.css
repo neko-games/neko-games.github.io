@@ -44,25 +44,22 @@ body
   width: 100vw;
   height: 5vh;
   margin:.5vw;
+  overflow: auto;
 }
 
 .socials
 {
-  margin: 0;
-  padding: .3%;
-  background-color: #eeeeee;
-  width:100vw;
-  position:fixed;
-  bottom:0;
+  display: flex;
+  width:20vw;
+  float:right;
 }
 
-.icon
+.sclbttn
 {
-  width: 20px;
-  height: 20px;
-  viewbox auto;
-  margin:0;
-  vertical-align: middle;
-  margin-left:1%;
-  margin-right:1%;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(11deg) brightness(120%) contrast(120%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-width:50%;
+  max-height:50%;
 }
