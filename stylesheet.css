@@ -23,7 +23,8 @@ body {
 .logo {
   display:inline-flex;
   height:5vh;
-  margin-right:1vh;
+  margin-right:2vh;
+  margin-left:.5vh;
 }
 
 .navbar {
@@ -32,7 +33,7 @@ body {
   display:flex;
   width:100vw;
   height:5vh;
-  border-bottom:1px solid white;
+  margin-top:.5vh;
 }
 
 .navelement {
@@ -63,7 +64,7 @@ body {
 {
   display:inline-flex;
   font-family: 'Insaniburger with Cheese';
-  font-size:2.5vh;
+  font-size:4vh;
   margin-top:auto;
   margin-bottom:auto;
   margin-right:1vw;
