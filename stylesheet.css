@@ -2,64 +2,54 @@
 
 /*Made by Harry Bond @corresbondent 2020*/
 
-
-html
-{
-  overflow: hidden;
-  background-color: #111111;
-  display: block;
-  font-family: 'Inter', sans-serif;
+@font-face {
+    font-family: 'Insaniburger with Cheese';
+    src: url('Assets/Fonts/InsaniburgerwithCheese.woff2') format('woff2'),
+        url('Assets/Fonts/InsaniburgerwithCheese.woff') format('woff'),
+        url('Assets/Fonts/InsaniburgerwithCheese.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-body
-{
+html {
+  background-color: #000000;
+  font-family: 'Inter';
+}
+body {
   margin:0;
 }
 
-.white
-{
+.logo {
+  display:inline-flex;
+  height:5vh;
+  margin-right:1vh;
+}
+
+.navbar {
+  align-items:flex-start;
+  align-content:center;
+  display:flex;
+  width:100vw;
+  height:5vh;
+}
+
+/* various classes used for global styles */
+.white {
   color:white;
 }
-
-.logo
-{
-  max-width:100%;
-  max-height:100%;
+.noselect {
+  user-select: none;
+}
+.nounderline {
+  text-decoration: none;
 }
 
-.headerlmnt
+.title
 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width:100%;
-  max-height:100%;
-  font-size: 4vh;
-  padding-right:2vw;
-}
-
-.header
-{
-  display: flex;
-  width: 100vw;
-  height: 5vh;
-  margin:.5vw;
-  overflow: auto;
-}
-
-.socials
-{
-  display: flex;
-  width:20vw;
-  float:right;
-}
-
-.sclbttn
-{
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(11deg) brightness(120%) contrast(120%);
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  max-width:50%;
-  max-height:50%;
+  display:inline-flex;
+  font-family: 'Insaniburger with Cheese';
+  font-size:2.5vh;
+  margin-top:auto;
+  margin-bottom:auto;
 }
