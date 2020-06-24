@@ -14,7 +14,7 @@
 
 html {
   background-color: #000000;
-  font-family: 'Inter';
+  font-family: 'Raleway';
 }
 body {
   margin:0;
@@ -32,6 +32,20 @@ body {
   display:flex;
   width:100vw;
   height:5vh;
+  border-bottom:1px solid white;
+}
+
+.navelement {
+  display:inline-flex;
+  font-size:2vh;
+  margin-left:1vw;
+  margin-right:1vw;
+  font-family: 'Insaniburger with Cheese';
+
+}
+.navmenu {
+  margin-top:auto;
+  margin-bottom:auto;
 }
 
 /* various classes used for global styles */
@@ -52,4 +66,5 @@ body {
   font-size:2.5vh;
   margin-top:auto;
   margin-bottom:auto;
+  margin-right:1vw;
 }
