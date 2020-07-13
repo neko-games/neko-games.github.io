@@ -23,7 +23,6 @@ body {
 .logo {
   display:inline-flex;
   height:5vh;
-  margin-right:2vmin;
   margin-left:.5vmin;
 }
 
@@ -42,8 +41,17 @@ body {
   font-size:2vh;
   margin-left:1vw;
   margin-right:1vw;
+  margin-top:auto;
+  margin-bottom:auto;
   font-family: 'Insaniburger with Cheese';
 
+}
+.socialmediaico {
+  height:1em;
+  width:1em;
+  display:block;
+  margin-left:3px;
+  margin-right:3px;
 }
 .navmenu {
   margin-top:auto;
@@ -53,6 +61,11 @@ body {
 /* various classes used for global styles */
 .white {
   color:white;
+}
+.whiteico {
+  width:100%;
+  height:100%;
+  filter:invert(100%);
 }
 .noselect {
   user-select: none;
