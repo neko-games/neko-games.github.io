@@ -20,6 +20,17 @@ body {
   margin:0;
 }
 
+.background {
+  left:0;
+  right:0;
+  z-index:-100;
+  background: url(Assets/Images/FullSize/tempwallpaper.jpg) no-repeat center center fixed;
+  background-size:cover;
+  height:100vh;
+  position:absolute;
+  filter:brightness(80%) blur(15px);
+}
+
 .logo {
   display:inline-flex;
   height:5vh;
@@ -34,6 +45,8 @@ body {
   height:5vh;
   z-index:100;
   background-color:black;
+  border-bottom:1px solid white;
+  box-shadow: 0 0 10px 0px black;
 }
 
 .navelement {
@@ -76,7 +89,7 @@ body {
 .abouttitle {
   display:inline-flex;
   font-family: 'Insaniburger with Cheese';
-  font-size:5em;
+  font-size:7vmin;
 }
 .aboutbody {
   margin: 0 15%;
@@ -93,3 +106,30 @@ body {
   margin-bottom:auto;
   margin-right:1vw;
 }
+
+.dropdown {
+  position:relative;
+  display:inline-block;
+  color:white;
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color:black;
+  min-width: 250%;
+  z-index:1;
+  border: 1px solid white;
+  box-shadow: 0 0 10px 0px black;
+}
+
+.dropdown-content a {
+  color:white;
+  text-decoration:none;
+  display:block;
+  text-align: left;
+  padding: 6px 6px;
+  float: none;
+}
+
+.dropdown:hover  .dropdown-content {display: block;}
