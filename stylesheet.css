@@ -1,5 +1,4 @@
 
-
 /*Made by Harry Bond @corresbondent 2020*/
 
 @font-face {
@@ -100,17 +99,6 @@ body {
 }
 .nounderline {
   text-decoration: none;
-}
-.abouttitle {
-  display:inline-flex;
-  font-family: 'Insaniburger with Cheese';
-  font-size:7vmin;
-}
-.aboutbody {
-  margin: 0 15%;
-}
-.aboutcontent {
-  font-size: 1.25em;
 }
 .title
 {

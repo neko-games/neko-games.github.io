@@ -1,0 +1,51 @@
+
+/*Made by Harry Bond @corresbondent 2020*/
+
+@font-face {
+  font-family: 'Insaniburger with Cheese';
+  src: url('Assets/Fonts/InsaniburgerwithCheese.woff2') format('woff2'),
+      url('Assets/Fonts/InsaniburgerwithCheese.woff') format('woff'),
+      url('Assets/Fonts/InsaniburgerwithCheese.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+html {
+  background-color: #000000;
+  font-family: 'Raleway';
+  color:white;
+}
+
+body {
+  margin:0;
+}
+.navbar {
+  display:flex;
+  width:100%;
+  height:5vh;
+  z-index:100;
+}
+
+.navback {
+  font-family:'Insaniburger with Cheese';
+  color:white;
+  text-decoration:none;
+  font-size:2vh;
+  margin-left:2vw;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.container {
+  width:100%;
+  height:100%;
+  display:flex;
+}
+
+.comingsoon {
+  display:inline-flex;
+  font-family: 'Insaniburger with Cheese';
+  margin: auto;
+  font-size: 2.5vh;
+}

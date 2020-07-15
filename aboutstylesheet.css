@@ -1,0 +1,104 @@
+
+/*Made by Harry Bond @corresbondent 2020*/
+
+@font-face {
+  font-family: 'Insaniburger with Cheese';
+  src: url('Assets/Fonts/InsaniburgerwithCheese.woff2') format('woff2'),
+      url('Assets/Fonts/InsaniburgerwithCheese.woff') format('woff'),
+      url('Assets/Fonts/InsaniburgerwithCheese.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+html {
+  background-color: #000000;
+  font-family: 'Raleway';
+  color:white;
+}
+
+body {
+  margin:0;
+}
+
+.background {
+  left:0;
+  right:0;
+  z-index:-100;
+  background: url(Assets/Images/FullSize/tempwallpaper.jpg) no-repeat center center fixed;
+  background-size:cover;
+  height:100vh;
+  position:absolute;
+  filter:brightness(80%) blur(15px);
+}
+
+.navbar {
+  display:flex;
+  width:100%;
+  height:5vh;
+  z-index:100;
+}
+
+.navback {
+  font-family:'Insaniburger with Cheese';
+  color:white;
+  text-decoration:none;
+  font-size:2vh;
+  margin-left:2vw;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.floatlook {
+  background-color:black;
+  border:1px solid white;
+  padding:1vw;
+  margin-top:5vh;
+  margin-bottom:5vh;
+}
+.container {
+  width:80vw;
+  max-width:100vh;
+  height:auto;
+  margin:0 auto;
+  margin-bottom:5vh;
+}
+
+.abouttitle {
+  font-family: 'Insaniburger with Cheese';
+  font-size:5em;
+  margin-bottom:2vh;
+}
+
+.aboutcontent {
+  display:flex;
+  font-size: 1.4em;
+  line-height:1.5em;
+  margin: auto 0;
+  padding:1vw;
+}
+.theteam {
+  padding:1vw;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-gap: 10px;
+
+}
+
+.teambio {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom:2vh;
+}
+
+.teambio div img {
+  border-radius:100%;
+  height:5em;
+  border: .1em solid white;
+  box-shadow: 0 0 10px 0px white;
+  margin-bottom:.2em;
+}
+.teambio div div {
+  font-size:.7em;
+}
