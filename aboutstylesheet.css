@@ -25,7 +25,7 @@ body {
   left:0;
   right:0;
   z-index:-100;
-  background: url(Assets/Images/FullSize/tempwallpaper.jpg) no-repeat center center fixed;
+  background: url(Assets/Images/FullSize/tempwallpaper111.jpg) no-repeat center center fixed;
   background-size:cover;
   height:100vh;
   position:absolute;
@@ -99,6 +99,6 @@ body {
   box-shadow: 0 0 10px 0px white;
   margin-bottom:.2em;
 }
-.teambio div div {
+.teambio div div div{
   font-size:.7em;
 }
