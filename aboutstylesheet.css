@@ -32,6 +32,10 @@ body {
   filter:brightness(80%) blur(15px);
 }
 
+.react:hover {
+  filter:brightness(80%);
+}
+
 .navbar {
   display:flex;
   width:100%;
@@ -67,6 +71,10 @@ body {
   font-family: 'Insaniburger with Cheese';
   font-size:3.75em;
   margin-bottom:2vh;
+  display:flex;
+  width:fit-content;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .aboutcontent {
@@ -75,15 +83,13 @@ body {
   line-height:1.5em;
   margin: auto 0;
   padding:1vw;
+  padding-top: 0px;
 }
-.theteam {
-  padding:0.75vw;
-}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(187.5px, 1fr) );
   grid-gap: 7.5px;
-
 }
 
 .teambio {
@@ -92,13 +98,30 @@ body {
   margin-bottom:1.5vh;
 }
 
-.teambio div img {
+.teambioimg {
   border-radius:100%;
   height:3.75em;
   border: .1em solid white;
   box-shadow: 0 0 10px 0px white;
   margin-bottom:.2em;
 }
+
+.teambio:hover {
+  transform:scale(1.1);
+}
+
 .teambio div div div{
   font-size:.7em;
+}
+
+.socialmediaico {
+  margin-top:.5em;
+  margin-right:.1em;
+  margin-left:.1em;
+  height:1em;
+  width:1em;
+  text-decoration:none;
+}
+.socialmediaico:hover {
+  filter:invert(50%);
 }

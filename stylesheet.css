@@ -89,6 +89,9 @@ body {
 .white {
   color:white;
 }
+.react:hover {
+  filter:brightness(80%);
+}
 .whiteico {
   width:100%;
   height:100%;
